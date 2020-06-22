@@ -11,8 +11,8 @@ namespace lab07_api.Controllers
     {
         Sach[] sachs = new Sach[]
         {
-            new Sach{Id = 1, Title = "Tôi thất hoa vàng trên cỏ xanh", AuthorName="Nguyễn Nhật Ánh", Price=1, Content = "Truyện kể về tuổi thơ,..."},
-            new Sach{Id = 2, Title = "Tôi thất hoa vàng trên cỏ xanh 2", AuthorName="Nguyễn Nhật Ánh 2", Price=1, Content = "Truyện kể về tuổi thơ 2,..."},
+            new Sach{Id = 1, Title = "Tôi thấy hoa vàng trên cỏ xanh", AuthorName="Nguyễn Nhật Ánh", Price=1, Content = "Truyện kể về tuổi thơ,..."},
+            new Sach{Id = 2, Title = "Chùa đàn", AuthorName="Nguyễn Tuân", Price=1, Content = "Truyện kể về,..."},
         };
         public IEnumerable<Sach> GetAll()
         {
